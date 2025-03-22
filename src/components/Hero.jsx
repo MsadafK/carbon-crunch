@@ -1,15 +1,15 @@
 import React from "react";
-// import EarthImage from "../assets/EarthImage.png";
+import EarthImage from "../assets/EarthImage.png";
 import Stats from "./Stats";
-import ParallaxSlider from "./ParallaxSlider";
+// import ParallaxSlider from "./ParallaxSlider";
 
 const Hero = () => {
   return (
     <section className="p-4 flex flex-col gap-8 md:grid md:grid-cols-2 md:gap-y-12 xl:p-0 xl:gap-y-40">
       {/* img container */}
       <div className="md:self-center">
-        {/* <img src={EarthImage} alt="" /> */}
-        <ParallaxSlider />
+        <img src={EarthImage} alt="" />
+        {/*<ParallaxSlider /> */}
       </div>
       {/* title and text container */}
       <div className="flex flex-col gap-6 items-start md:order-first xl:justify-between">
